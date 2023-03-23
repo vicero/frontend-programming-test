@@ -9,6 +9,8 @@ npm install
 npm run dev
 ```
 
+Note that on some machines you need to run `npm run dev -- --host 0.0.0.0` if you are unable to connect to the dev host.
+
 # Programming Test
 
 To complete this test, create a web app that can search GitHub repositories.
