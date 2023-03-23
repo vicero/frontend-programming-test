@@ -17,7 +17,9 @@ To complete this test, create a web app that can search GitHub repositories.
 
 The search API is documented [here](https://docs.github.com/en/rest/search?apiVersion=2022-11-28#search-repositories).
 
-Authentication is not required to query this endpoint.
+Authentication is not required to query this endpoint.  However, unauthenticated
+requests are rate-limited to 60 per hour.  Please consider this when building your
+web app.
 
 You can also use `curl` to experiment with the endpoint:
 
